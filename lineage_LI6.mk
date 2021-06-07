@@ -25,3 +25,6 @@ PRODUCT_GMS_CLIENTID_BASE := android-transsion
 PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceName=X678B \
     BuildFingerprint=TECNO/LI6-OP/TECNO-LI6:15/AP3A.240905.015.A2/145003:user/release-keys
+
+# Time
+LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
