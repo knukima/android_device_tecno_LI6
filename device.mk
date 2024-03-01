@@ -43,7 +43,11 @@ PRODUCT_PACKAGES += \
     checkpoint_gc
 
 PRODUCT_VIRTUAL_AB_COMPRESSION_METHOD := lz4
-    
+
+PRODUCT_PACKAGES += \
+    create_pl_dev \
+    create_pl_dev.recovery
+
 # Allow userspace reboots
 $(call inherit-product, $(SRC_TARGET_DIR)/product/userspace_reboot.mk)
 
