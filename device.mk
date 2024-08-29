@@ -101,7 +101,11 @@ PRODUCT_PACKAGES += \
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor:64
-    
+
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2460
+TARGET_SCREEN_WIDTH := 1080
+
 # Boot control HAL
 PRODUCT_PACKAGES += \
 	com.android.hardware.boot \
@@ -430,15 +434,12 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@2.1-service.multihal \
     android.hardware.sensors@2.0-ScopedWakelock.vendor
 
-<<<<<<< HEAD:device.mk
-=======
 PRODUCT_PACKAGES += \
     libshim_sensors
 
 PRODUCT_PACKAGES += \
     sensors.dynamic_sensor_hal
 
->>>>>>> 115f396 (mt6789-common: Add dynamic sensors HAL support):common.mk
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
 
