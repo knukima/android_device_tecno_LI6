@@ -222,6 +222,7 @@ ueventd.mt6789.rc
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworkResOverlayArchmage \
+    SettingsResOverlayArchmage \
     SystemUIResOverlayArchmage \
     TetheringResOverlayArchmage \
     WifiResOverlayArchmage
