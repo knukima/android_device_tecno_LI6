@@ -212,23 +212,23 @@ $(call inherit-product, vendor/mediatek/ims/ims.mk)
 
 # Init files
 PRODUCT_PACKAGES += \
-fstab.mt6789 \
-fstab.mt6789.vendor_ramdisk \
-init_connectivity.rc \
-init.aee.rc \
-init.cgroup.rc \
-init.connectivity.common.rc \
-init.connectivity.rc \
-init.insmod.sh \
-init.insmod.mt6789.cfg \
-init.modem.rc \
-init.mt6789.rc \
-init.mt6789.usb.rc \
-init.mtkgki.rc \
-init.project.rc \
-init.recovery.usb.rc \
-init.sensor_2_0.rc \
-ueventd.mt6789.rc
+    fstab.mt6789 \
+    fstab.mt6789.vendor_ramdisk \
+    init_connectivity.rc \
+    init.aee.rc \
+    init.connectivity.common.rc \
+    init.connectivity.rc \
+    init.insmod.sh \
+    init.insmod.mt6789.cfg \
+    init.modem.rc \
+    init.mt6789.power.rc \
+    init.mt6789.rc \
+    init.mt6789.usb.rc \
+    init.mtkgki.rc \
+    init.project.rc \
+    init.recovery.usb.rc \
+    init.sensor_2_0.rc \
+    ueventd.mt6789.rc
 
 # Lights
 PRODUCT_PACKAGES += \
