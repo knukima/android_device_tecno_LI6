@@ -15,10 +15,9 @@
 -->
 
 <MediaCodecs>
+    <!-- DUKE ADD: don't remove it -->
     <Include href="media_codecs_dolby_audio.xml" />
-    <Include href="media_codecs_dolby_audio.xml" />
-    <Include href="media_codecs_dolby_audio.xml" />
-	<Settings>
+    <Settings>
         <!-- disable TV and telephony domains by default. These must be opted in by OEMs -->
         <!-- USD:modify TOS1501-2588 add mtk patch by zhengwei.xie 20240912 start -->
         <Domain name="telephony" enabled="true" />
