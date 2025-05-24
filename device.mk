@@ -222,7 +222,8 @@ ueventd.mt6789.rc
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworkResOverlayArchmage \
-    SystemUIResOverlayArchmage
+    SystemUIResOverlayArchmage \
+    WifiResOverlayArchmage
 
 # Lights
 PRODUCT_PACKAGES += \
