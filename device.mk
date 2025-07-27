@@ -369,8 +369,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libbinder-v32 \
     libhidlbase-v32 \
-    libstagefright_foundation-v32 \
-    libutils-v32    
+    libstagefrightfoundation-v33 \
+    libutils-v32
 
 # USB
 $(call soong_config_set,android_hardware_mediatek_usb,audio_accessory_supported,true)
