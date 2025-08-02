@@ -230,18 +230,9 @@ init.recovery.usb.rc \
 init.sensor_2_0.rc \
 ueventd.mt6789.rc
 
-# Overlays
-PRODUCT_ENFORCE_RRO_TARGETS := *
-PRODUCT_PACKAGES += \
-    FrameworkResOverlayArchmage \
-    SettingsResOverlayArchmage \
-    SystemUIResOverlayArchmage \
-    TetheringResOverlayArchmage \
-    WifiResOverlayArchmage
-
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.millennium    
+    android.hardware.lights-service.millennium
 
 # Keylayout
 PRODUCT_COPY_FILES += \
@@ -301,6 +292,15 @@ PRODUCT_PACKAGES += \
     android.hardware.nfc-service.nxp \
     com.android.nfc_extras \
     Tag
+
+# Overlays
+PRODUCT_ENFORCE_RRO_TARGETS := *
+PRODUCT_PACKAGES += \
+    FrameworkResOverlayArchmage \
+    SettingsResOverlayArchmage \
+    SystemUIResOverlayArchmage \
+    TetheringResOverlayArchmage \
+    WifiResOverlayArchmage
 
 # Permissions
 PRODUCT_COPY_FILES += \
