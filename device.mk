@@ -313,6 +313,7 @@ PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     FrameworkResOverlayArchmage \
     SettingsResOverlayArchmage \
+    SettingsProviderOverlayVeritas \
     SystemUIResOverlayArchmage \
     TetheringResOverlayArchmage \
     WifiResOverlayArchmage
