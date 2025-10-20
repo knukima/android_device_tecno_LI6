@@ -1,9 +1,9 @@
 # Unpinned blobs from LI6-15.1.2.145SP01(BASE001PF001AZ)
 
 # APU
--vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
--vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
--vendor/etc/vintf/manifest/manifest_apuware_utils.xml
+vendor/etc/vintf/manifest/manifest_apuware_apusys.xml
+vendor/etc/vintf/manifest/manifest_apuware_hmp.xml
+vendor/etc/vintf/manifest/manifest_apuware_utils.xml
 vendor/lib64/APUWareApusysServer.so
 vendor/lib64/APUWareHmpServer.so
 vendor/lib64/APUWareUtilsServer.so
@@ -1146,7 +1146,7 @@ vendor/lib64/vendor.mediatek.hardware.mms@1.6.so
 # Neural Networks
 vendor/bin/hw/android.hardware.neuralnetworks-shim-service-mtk
 vendor/etc/init/android.hardware.neuralnetworks-shim-service-mtk.rc
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks-shim-service-mtk.xml
 vendor/etc/armnn_app.config
 vendor/etc/nnapi_powerhal.json
 vendor/lib64/mt6789/libneuralnetworks_sl_driver_mtk_prebuilt.so;SYMLINK=vendor/lib64/libneuralnetworks_sl_driver_mtk_prebuilt.so
