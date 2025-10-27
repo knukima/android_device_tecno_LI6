@@ -1,4 +1,4 @@
 runtime_resource_overlay {
     name: "SystemUIResOverlayArchmage",
-    vendor: true
+    vendor: true,
 }
