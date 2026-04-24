@@ -11,6 +11,9 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayArchmage \
     SystemUIResOverlayArchmage
 
+# Dynamic partitions
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 
