@@ -70,6 +70,9 @@ PRODUCT_PACKAGES += \
     FrameworkResOverlayArchmage \
     SystemUIResOverlayArchmage
 
+# Project ID Quota
+$(call inherit-product, $(SRC_TARGET_DIR)/product/emulated_storage.mk)
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 
