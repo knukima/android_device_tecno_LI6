@@ -109,7 +109,4 @@ on property:sys.boot_completed=1
     write /dev/cpuctl/foreground/cpu.shares 4196
     #SPD: modify cpu shares at 20240115 start
 
-#SPD: modify for swap zram write-back by shuang.zhou at 20201020 start
-on property:sys.boot_completed=1 && property:persist.vendor.swapfile_enable=true && property:ro.vendor.memfusion2_2.support=true
-    swapon_all /vendor/etc/memfusion2/fstab.enableswap_wb
-#SPD: modify for swap zram write-back by shuang.zhou at 20201020 end
+
