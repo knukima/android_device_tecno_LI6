@@ -132,6 +132,9 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder.vendor     
 
+# IMS
+$(call inherit-product, vendor/mediatek/ims/ims.mk)
+
 # Include GSI keys
 $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 
