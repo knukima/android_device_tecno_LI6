@@ -151,5 +151,8 @@ BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --set_hashtree_disabled_flag
 # VNDK
 BOARD_VNDK_VERSION := current
 
+# Workaround to make lineage's soong generator work
+TARGET_KERNEL_SOURCE := $(KERNEL_PATH)/kernel-headers
+
 # Inherit the proprietary files
 include vendor/tecno/LI6/BoardConfigVendor.mk
