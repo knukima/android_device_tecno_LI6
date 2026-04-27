@@ -324,7 +324,14 @@ PRODUCT_SOONG_NAMESPACES += \
 # Vibrator
 PRODUCT_PACKAGES += \
     android.hardware.vibrator-service.millennium  
-    
+
+# VNDK
+PRODUCT_PACKAGES += \
+    libbinder-v32 \
+    libhidlbase-v32 \
+    libstagefright_foundation-v32 \
+    libutils-v32    
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     wpa_supplicant \
