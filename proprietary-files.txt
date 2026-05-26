@@ -661,6 +661,7 @@ vendor/lib64/mt6789/libmtkcam_ulog.so;SYMLINK=vendor/lib64/libmtkcam_ulog.so
 vendor/lib64/mt6789/libportrait_repair_ppl3_ocl.so;SYMLINK=vendor/lib64/libportrait_repair_ppl3_ocl.so
 vendor/lib64/mt6789/libremosaic_wrapper.so;SYMLINK=vendor/lib64/libremosaic_wrapper.so
 vendor/lib64/mt6789/libremosaiclib.so;SYMLINK=vendor/lib64/libremosaiclib.so
+vendor/lib64/mt6789/librmsclib1.so;SYMLINK=vendor/lib64/librmsclib1.so
 vendor/lib64/mt6789/libsegmention.so;SYMLINK=vendor/lib64/libsegmention.so;DISABLE_CHECKELF
 vendor/lib64/mt6789/libsegmentionPre.so;SYMLINK=vendor/lib64/libsegmentionPre.so
 vendor/lib64/mt6789/libsmartdetector.so;SYMLINK=vendor/lib64/libsmartdetector.so
