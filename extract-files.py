@@ -15,10 +15,10 @@ from extract_utils.main import (
 )
 
 namespace_imports = [
-    'device/tecno/LH7n',
+    'device/tecno/LI6',
     'hardware/mediatek',
     'hardware/mediatek/libmtkperf_client',
-    'hardware/millennium',
+    'hardware/shadowbyte',
 ]
 
 blob_fixups: blob_fixups_user_type = {
@@ -59,8 +59,7 @@ blob_fixups: blob_fixups_user_type = {
         .patchelf_version('0_17_2')
         .add_needed('libprocessgroup_shim.so'),
     ('vendor/lib64/mt6789/lib3a.flash.so', 'vendor/lib64/mt6789/lib3a.ae.stat.so', 'vendor/lib64/mt6789/lib3a.sensors.flicker.so',
-     'vendor/lib64/mt6789/lib3a.sensors.color.so', 'vendor/lib64/mt6789/libaaa_ltm.so', 'vendor/lib64/lib3a.ae.pipe.so',
-     'vendor/lib64/libSQLiteModule_VER_ALL.so'): blob_fixup()
+     'vendor/lib64/mt6789/lib3a.sensors.color.so', 'vendor/lib64/lib3a.ae.pipe.so'): blob_fixup()
         .add_needed('liblog.so'),
     'vendor/lib64/mt6789/libmnl.so': blob_fixup()
         .add_needed('libcutils.so'),
