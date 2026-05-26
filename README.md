@@ -22,4 +22,4 @@
 
 ## Device Picture
 
-![TECNO POVA 6 NEO]([https://fdn2.gsmarena.com/vv/pics/tecno/tecno-pova-6-neo-1.jpg](https://fdn2.gsmarena.com/vv/pics/tecno/tecno-pova-6-neo-01.jpg))
+![TECNO POVA 6 NEO](https://fdn2.gsmarena.com/vv/pics/tecno/tecno-pova-6-neo-01.jpg)
