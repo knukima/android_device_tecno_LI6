@@ -23,7 +23,7 @@ PRODUCT_MODEL := TECNO LI6
 PRODUCT_GMS_CLIENTID_BASE := android-transsion
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    DeviceName=X678B \
+    DeviceName=LI6 \
     BuildFingerprint=TECNO/LI6-OP/TECNO-LI6:15/AP3A.240905.015.A2/145003:user/release-keys
 
 # Time
