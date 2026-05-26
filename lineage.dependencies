@@ -4,5 +4,11 @@
     "target_path": "device/tecno/LI6-kernel",
     "branch": "lineage-23.0",
     "remote": "xtensei"
+  },
+  {
+    "repository": "android_hardware_shadowbyte",
+    "target_path": "hardware/shadowbyte",
+    "branch": "lineage-23.0",
+    "remote": "shadowbyte"
   }
 ]
