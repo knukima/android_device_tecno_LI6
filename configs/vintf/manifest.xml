@@ -398,8 +398,5 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <sepolicy>
-        <version>31.0</version>
-    </sepolicy>
     <kernel target-level="6"/>
 </manifest>
