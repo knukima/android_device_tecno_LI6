@@ -25,6 +25,7 @@ namespace_imports = [
     'hardware/mediatek/libaedv',
     'hardware/mediatek/libmtkperf_client',
     'hardware/shadowbyte',
+    'vendor/mediatek/ims',
 ]
 
 blob_fixups: blob_fixups_user_type = {
