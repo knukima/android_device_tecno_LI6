@@ -443,6 +443,7 @@ vendor/lib64/libtranssion_forkexecwrap.so
 vendor/lib64/libTranVideoFilter.so
 vendor/lib64/libTranVideoLuminousEffects.so
 vendor/lib64/libTranVideoSupeNightYuv.so
+vendor/lib64/libTransSched.so
 vendor/lib64/libvideofilter_cl_64.so
 vendor/lib64/libcam_tranvipscheduler.so
 vendor/lib64/mt6789/fake_serial_yuv_IdxMgr.so;SYMLINK=vendor/lib64/fake_serial_yuv_IdxMgr.so
