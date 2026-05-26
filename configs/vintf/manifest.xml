@@ -398,5 +398,4 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <kernel target-level="6"/>
 </manifest>
