@@ -41,6 +41,7 @@ vendor/lib64/libblisrc32_vendor.so
 vendor/lib64/libbwc.so
 vendor/lib64/libcvsd_mtk.so
 vendor/lib64/libfsmaudio.so
+vendor/lib64/libkaraoke.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmtklimiter_vendor.so
 vendor/lib64/libmtkshifter_vendor.so
@@ -48,6 +49,7 @@ vendor/lib64/libnxp_extamp_intf.so
 vendor/lib64/librt_extamp_intf.so
 vendor/lib64/libspeech_enh_lib.so;FIX_SONAME
 vendor/lib64/libspeechparser_vendor.so
+vendor/lib64/libTransNS.so
 vendor/lib64/vendor.mediatek.hardware.audio@7.1.so
 
 # Audio Configs
@@ -198,6 +200,7 @@ vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.0-impl.so;SYMLIN
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.isphal@1.1-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.isphal@1.1-impl.so
 vendor/lib64/hw/mt6789/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so;SYMLINK=vendor/lib64/hw/vendor.mediatek.hardware.camera.lomoeffect@1.0-impl.so
 vendor/lib64/libaibld.so
+vendor/lib64/libaipe_bokeh.so
 vendor/lib64/libanc_hdr.so
 vendor/lib64/libanc_hdr_adapter_s5kjn1_17201858_back_g97.so
 vendor/lib64/libancbase.so
@@ -436,6 +439,7 @@ vendor/lib64/libTranExtImgThread.so
 vendor/lib64/libtranssion_forkexecwrap.so
 vendor/lib64/libTranVideoFilter.so
 vendor/lib64/libvideofilter_cl_64.so
+vendor/lib64/mt6789/fake_serial_yuv_IdxMgr.so;SYMLINK=vendor/lib64/fake_serial_yuv_IdxMgr.so
 vendor/lib64/mt6789/lib3a.ae.core.so;SYMLINK=vendor/lib64/lib3a.ae.core.so
 vendor/lib64/mt6789/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so
 vendor/lib64/mt6789/lib3a.ae.stat.so;SYMLINK=vendor/lib64/lib3a.ae.stat.so
@@ -592,6 +596,7 @@ vendor/lib64/mt6789/libimageio_plat_pipe.so;SYMLINK=vendor/lib64/libimageio_plat
 vendor/lib64/mt6789/libitdfacebeauty.so;SYMLINK=vendor/lib64/libitdfacebeauty.so
 vendor/lib64/mt6789/liblpcnr.so;SYMLINK=vendor/lib64/liblpcnr.so
 vendor/lib64/mt6789/libmagicsky_64.so;SYMLINK=vendor/lib64/libmagicsky_64.so
+vendor/lib64/mt6789/libmorpho_HDSR.so;SYMLINK=vendor/lib64/libmorpho_HDSR.so
 vendor/lib64/mt6789/libmorpho_video_stabilizer.so;SYMLINK=vendor/lib64/libmorpho_video_stabilizer.so;DISABLE_CHECKELF
 vendor/lib64/mt6789/libmpbase.so;SYMLINK=vendor/lib64/libmpbase.so
 vendor/lib64/mt6789/libmsnr.so;SYMLINK=vendor/lib64/libmsnr.so
