@@ -113,7 +113,7 @@ blob_fixups: blob_fixups_user_type = {
     ('vendor/bin/mnld', 'vendor/bin/volte_clientapi_ua', 'vendor/lib64/lbs_hidl_service-impl.so'): blob_fixup()
         .replace_needed('libhidltransport.so', 'libhidlbase.so'),
     'vendor/lib64/libvendor.goodix.hardware.biometrics.fingerprint@2.1.so': blob_fixup()
-        .add_needed('android.hardware.biometrics.fingerprint@2.1.so'),
+        .add_needed('libhidlbase_shim.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
