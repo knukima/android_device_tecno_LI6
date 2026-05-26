@@ -9,6 +9,11 @@ from extract_utils.fixups_blob import (
     blob_fixups_user_type,
 )
 
+from extract_utils.fixups_lib import (
+    lib_fixups,
+    lib_fixups_user_type,
+)
+
 from extract_utils.main import (
     ExtractUtils,
     ExtractUtilsModule,
@@ -110,6 +115,7 @@ module = ExtractUtilsModule(
     'LI6',
     'tecno',
     blob_fixups=blob_fixups,
+    lib_fixups=lib_fixups,
     namespace_imports=namespace_imports,
 )
 
