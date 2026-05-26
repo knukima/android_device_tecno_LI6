@@ -224,7 +224,6 @@ $(call inherit-product, vendor/mediatek/ims/ims.mk)
 # Init files
 PRODUCT_PACKAGES += \
     fstab.mt6789 \
-    fstab.mt6789.vendor_ramdisk \
     init_connectivity.rc \
     init.connectivity.common.rc \
     init.connectivity.rc \

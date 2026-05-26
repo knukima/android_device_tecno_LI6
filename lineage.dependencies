@@ -1,0 +1,8 @@
+[
+  {
+    "repository": "android_device_tecno_LI6-kernel",
+    "target_path": "device/tecno/LI6-kernel",
+    "branch": "lineage-23.0",
+    "remote": "xtensei"
+  }
+]
