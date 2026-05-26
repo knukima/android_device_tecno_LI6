@@ -1068,7 +1068,6 @@ vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libheichal.so
-vendor/lib64/libhidltransport.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodecdrv_header_stub.so
 

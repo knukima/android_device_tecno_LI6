@@ -109,6 +109,8 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('AHardwareBuffer_unlock'),
     'vendor/bin/hw/mtkfusionrild': blob_fixup()
         .add_needed('libutils-v32.so'),
+    ('vendor/bin/mnld', 'vendor/bin/volte_clientapi_ua', 'vendor/lib64/lbs_hidl_service-impl.so'): blob_fixup()
+        .replace_needed('libhidltransport.so', 'libhidlbase.so'),
 }  # fmt: skip
 
 module = ExtractUtilsModule(
