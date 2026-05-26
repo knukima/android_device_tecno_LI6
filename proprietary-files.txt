@@ -444,8 +444,12 @@ vendor/lib64/libTranVideoFilter.so
 vendor/lib64/libTranVideoLuminousEffects.so
 vendor/lib64/libTranVideoSupeNightYuv.so
 vendor/lib64/libTransSched.so
+vendor/lib64/libvideofilmeffect.so
 vendor/lib64/libvideofilter_cl_64.so
+vendor/lib64/libwatermark.so
+vendor/lib64/libyuvenhance.so
 vendor/lib64/libcam_tranvipscheduler.so
+vendor/lib64/vendor.transsion.performance.sched@1.0.so
 vendor/lib64/mt6789/fake_serial_yuv_IdxMgr.so;SYMLINK=vendor/lib64/fake_serial_yuv_IdxMgr.so
 vendor/lib64/mt6789/lib3a.ae.core.so;SYMLINK=vendor/lib64/lib3a.ae.core.so
 vendor/lib64/mt6789/lib3a.ae.so;SYMLINK=vendor/lib64/lib3a.ae.so
@@ -686,12 +690,14 @@ vendor/lib64/mt6789/libSonyIMX386PdafLibraryWrapper.so;SYMLINK=vendor/lib64/libS
 vendor/lib64/mt6789/libSonyIMX519PdafLibrary.so;SYMLINK=vendor/lib64/libSonyIMX519PdafLibrary.so
 vendor/lib64/mt6789/libSonyIMX519PdafLibraryWrapper.so;SYMLINK=vendor/lib64/libSonyIMX519PdafLibraryWrapper.so
 vendor/lib64/mt6789/libst_mobile.so;SYMLINK=vendor/lib64/libst_mobile.so
+vendor/lib64/mt6789/libst_ns_models.so;SYMLINK=vendor/lib64/libst_ns_models.so
 vendor/lib64/mt6789/libstblur_capture_api.so;SYMLINK=vendor/lib64/libstblur_capture_api.so
 vendor/lib64/mt6789/libstereoinfoaccessor_vsdof.so;SYMLINK=vendor/lib64/libstereoinfoaccessor_vsdof.so
 vendor/lib64/mt6789/libtf_asd_lib.so;SYMLINK=vendor/lib64/libtf_asd_lib.so
 vendor/lib64/mt6789/libtflite_native_gainference.so;SYMLINK=vendor/lib64/libtflite_native_gainference.so
 vendor/lib64/mt6789/libtflite_native_inference.so;SYMLINK=vendor/lib64/libtflite_native_inference.so
 vendor/lib64/mt6789/libtflite_native_seginference.so;SYMLINK=vendor/lib64/libtflite_native_seginference.so
+vendor/lib64/mt6789/libttm_nightsight.so;SYMLINK=vendor/lib64/libttm_nightsight.so
 vendor/lib64/mt6789/libTran_Log.so;SYMLINK=vendor/lib64/libTran_Log.so
 vendor/lib64/mt6789/libTran_mtkPowerAPI.so;SYMLINK=vendor/lib64/libTran_mtkPowerAPI.so
 vendor/lib64/mt6789/libTranArcFilter.so;SYMLINK=vendor/lib64/libTranArcFilter.so
@@ -1062,6 +1068,7 @@ vendor/lib64/libjpeg-alpha-oal_vendor.so
 vendor/lib64/libjpeg-alpha_vendor.so
 vendor/lib64/libhevce_sb.ca7.android.so
 vendor/lib64/libheichal.so
+vendor/lib64/libhidltransport.so
 vendor/lib64/libvcodec_oal.so
 vendor/lib64/libvcodecdrv_header_stub.so
 
