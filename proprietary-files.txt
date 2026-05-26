@@ -210,6 +210,7 @@ vendor/lib64/libcam.seninfn3d.so
 vendor/lib64/libcam3_tranelapsedtime.so
 vendor/lib64/libcam3_tranpriorityctrl.so
 vendor/lib64/libcam3_transerverengine.so
+vendor/lib64/libcam3_tranwatchdogmonitor.so
 vendor/lib64/libcamalgo.3dnr.so
 vendor/lib64/libcamalgo.dngop.so
 vendor/lib64/libcamalgo.eis.so
