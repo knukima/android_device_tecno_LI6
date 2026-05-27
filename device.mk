@@ -468,11 +468,6 @@ PRODUCT_COPY_FILES += \
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 34
 
-# Skip framework-FCM kernel config diff at build time. Stock kernel ships
-# CONFIG_IP6_NF_NAT=y and CONFIG_SYSVIPC=y, both of which the FCM level 6
-# matrix requires unset; we can't rebuild the vendor prebuilt.
-PRODUCT_OTA_ENFORCE_VINTF_KERNEL_REQUIREMENTS := false
-
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
