@@ -11,7 +11,7 @@
 | Shipped Android version | 13                                                          |
 | Storage                 | 256GB                                                       |
 | MicroSD                 | MicroSDXC                                                   |
-| Battery                 | Non-removable Li-Po 6000 mAh                                |
+| Battery                 | Non-removable Li-Po 7000 mAh                                |
 | Dimensions              | 168.6 x 76.6 x 9 mm                                         |
 | Display                 | 1080 x 2400 pixels, 6.67 inches                             |
 | Rear Camera 1           | 108 MP, (wide), 1/1.67", PDAF                               |
